@@ -6,21 +6,12 @@ const continue_btn = document.querySelector(".buttons .restart");
 const quiz_box = document.querySelector(".quiz_box");
 const myH1 = document.getElementById("myH1");
 let username = window.prompt("please what's your name");
-const option_list = document.querySelector(".option_list");
 const timeCount = quiz_box.querySelector(".timer .time_sec");
 const timeoff = quiz_box.querySelector("header .time_text");
 
-
+const option_list = document.querySelector(".option_list");
 
 myH1.textContent = `👋Hey ${username}`;
-
-   /* let username;
-document.getElementById('mysubmit').onclick = function(){
-    username = document.getElementById("mytext").value;
-    document.getElementById("myh1").textcontent = "Hello ${username}"
-        console.log(username);
-    }
-*/
 //if start quiz button ic clicked
 start_btn.onclick = ()=>{
     info_Box.classList.add("activeinfo");//shows info box
