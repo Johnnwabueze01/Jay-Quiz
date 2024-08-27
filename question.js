@@ -102,7 +102,7 @@ let questions = [
     {
         numb: 10,
         question: "Which gas do plants absorb from the atmosphere?",
-        answer: "a.)  To check if a value is not a number",
+        answer: "c.)  Carbondioxide",
         options: [
             "a.)  Oxygen",
             "b.)  Nitrogen",
