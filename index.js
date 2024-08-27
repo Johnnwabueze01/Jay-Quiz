@@ -8,7 +8,16 @@ const quiz_box = document.querySelector(".quiz_box");
 const timeCount = quiz_box.querySelector(".timer .time_sec");
 const timeoff = quiz_box.querySelector("header .time_text");
 
-let username = window.prompt("what's your name?");
+        // Accept user 
+let userInput = prompt("Please enter your name:");
+
+        // Concatenate the user input with a text
+let message = "Hello, " + userInput + "! Welcome to the Quiz.";
+
+        // Display the message on the webpage
+document.getElementById("message").innerText = message;
+
+//let username = window.prompt("what's your name?");
 
 //if start quiz button ic clicked
 start_btn.onclick = ()=>{
