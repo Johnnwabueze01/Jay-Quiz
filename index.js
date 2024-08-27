@@ -10,7 +10,7 @@ const timeoff = quiz_box.querySelector("header .time_text");
 
 
     let username;
-document.getElementById('mysubmit').onclick=function{
+document.getElementById('mysubmit').onclick = function(){
     username = document.getElementById("mytext").value;
     document.getElementById("myh1").textcontent = "Hello ${username}"
         console.log(username);
