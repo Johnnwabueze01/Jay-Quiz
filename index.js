@@ -11,13 +11,16 @@ const timeCount = quiz_box.querySelector(".timer .time_sec");
 const timeoff = quiz_box.querySelector("header .time_text");
 
 
-    let username;
+
+myH1.textContent = `👋Hey ${username}`;
+
+   /* let username;
 document.getElementById('mysubmit').onclick = function(){
     username = document.getElementById("mytext").value;
     document.getElementById("myh1").textcontent = "Hello ${username}"
         console.log(username);
     }
-
+*/
 //if start quiz button ic clicked
 start_btn.onclick = ()=>{
     info_Box.classList.add("activeinfo");//shows info box
