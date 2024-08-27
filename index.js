@@ -182,7 +182,7 @@ function starttimer(time){
         if(time < 0){
             clearInterval(counter);
             timeCount.textContent = "00";
-            timeoff.textContent = "Time Off";
+            timeoff.textContent = "Times up";
 
             let correctAns = questions[que_count].answer;
             let alloptions = option_list.children.length;
