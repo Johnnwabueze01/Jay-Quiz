@@ -11,7 +11,7 @@
 
 }
 body{
-    background-image: url('Background.jpg');
+    background-image: url('images/Background.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -355,4 +355,4 @@ footer .next_btn:hover{
     
 
   }
-}
+    }
