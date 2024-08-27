@@ -8,6 +8,8 @@ const quiz_box = document.querySelector(".quiz_box");
 const timeCount = quiz_box.querySelector(".timer .time_sec");
 const timeoff = quiz_box.querySelector("header .time_text");
 
+let username = window.prompt("what's your name?");
+
 //if start quiz button ic clicked
 start_btn.onclick = ()=>{
     info_Box.classList.add("activeinfo");//shows info box
