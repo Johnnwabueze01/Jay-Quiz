@@ -8,27 +8,13 @@ const option_list = document.querySelector(".option_list");
 const timeCount = quiz_box.querySelector(".timer .time_sec");
 const timeoff = quiz_box.querySelector("header .time_text");
 
-document.addEventListener('DOMContentLoaded', function() {
-    const text = "click the button to begin your Quiz";
-    let index = 0;
-    const typewriterTextElement = document.getElementById("typewriter");
-  
-    function typeWriter() {
-      if (index < text.length) {
-        typewriterTextElement.innerHTML += text.charAt(index);
-        index++;
-        setTimeout(typeWriter, 100); // Adjust typing speed (milliseconds)
-      } else {
-        // After typing is complete, fade in the content
-        document.querySelector('.content').classList.add('show');
-        // Hide the overlay
-        document.querySelector('.overlay').style.display = 'none';
-      }
+
+    let username;
+document.getElementById('mysubmit').onclick=function{
+    username = document.getElementById("mytext").value;
+    document.getElementById("myh1").textcontent = "Hello ${username}"
+        console.log(username);
     }
-  
-    // Call typeWriter function when the page loads
-    typeWriter();
-  });
 
 //if start quiz button ic clicked
 start_btn.onclick = ()=>{
