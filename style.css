@@ -19,6 +19,23 @@ body{
     margin: 0;
     overflow-y: hidden;
 }
+.overlay {
+  height: 100vh;
+  background: rgba(10, 222, 249, 0.2);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(3.5px);
+  -webkit-backdrop-filter: blur(3.5px);
+  border-radius: 10px;
+  padding-top: 5rem;
+}
+.header {
+  text-align: center;
+  /* margin-top: 10rem;*/
+  color: #f8fafa;
+}
+.header p {
+  font-size: 1.5rem;
+}
 .start_btn,
 .info_Box,
 .quiz_box,
