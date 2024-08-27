@@ -9,7 +9,7 @@
 }
 
 body {
-  background: green;
+  background-image: url(background.jpg);
 }
 
 .start_btn,
