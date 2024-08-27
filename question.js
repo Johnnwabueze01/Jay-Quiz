@@ -2,112 +2,112 @@
 let questions = [
     {
         numb: 1,
-        question: "How do you create a function in JavaScript?",
-        answer: "a.)  function myFunction() {}",
+        question: "What is the chemical symbol for water?",
+        answer: "b.)  H2O",
         options: [
-            "a.)  function myFunction() {}",
-            "b.)  def myFunction() {}",
-            "c.)  function: myFunction() {}",
-            "d.)  create myFunction() {}"
+            "a.)  NaCl",
+            "b.)  H2O",
+            "c.)  CO2",
+            "d.)  O2"
         ]
     },
     {
         numb: 2,
-        question: "What will the following code return: Boolean(10 > 9)?",
-        answer: "a.)  true",
+        question: " What is the largest ocean on Earth?",
+        answer: "a.)  Parcific Ocean",
         options: [
-            "a.)  true",
-            "b.)  false",
-            "c.)  NaN",
-            "d.)  null"
+            "a.)  Parcific Ocean",
+            "b.)  Arctic Ocean",
+            "c.)  Atlantic Ocean",
+            "d.)  Indian Ocean"
         ]
     },
     {
         numb: 3,
-        question: "How do you write 'Hello World' in an alert box?",
-        answer: "a.)  alert('Hello World');",
+        question: "What is the largest mammal in the world?",
+        answer: "c.)  Blue Whale",
         options: [
-            "a.)  alert('Hello World');",
-            "b.)  msg('Hello World');",
-            "c.)  alertBox('Hello World');",
-            "d.)  msgBox('Hello World');"
+            "a.)  Elephant",
+            "b.)  Great White Shark",
+            "c.)  Blue Whale",
+            "d.)  Giraffe"
         ]
     },
     {
         numb: 4,
-        question: "Which of the following is a correct way to declare a variable in JavaScript?",
-        answer: "a.)  let myVar;",
+        question: "How many continents are there in the world?",
+        answer: "c.)  Seven",
         options: [
-            "a.)  let myVar;",
-            "b.)  variable myVar;",
-            "c.)  v myVar;",
-            "d.)  varr myVar;"
+            "a.)  Five",
+            "b.)  Six",
+            "c.)  Seven",
+            "d.)  Eight"
         ]
     },
     {
         numb: 5,
-        question: "How can you detect the client's browser name?",
-        answer: "a.)  navigator.appName",
+        question: "What is the hardest natural substance on Earth?",
+        answer: "a.)  Diamomd",
         options: [
-            "a.)  navigator.appName",
-            "b.)  browser.name",
-            "c.)  client.navName",
-            "d.)  browser.appName"
+            "a.)  Diamond",
+            "b.)  Silver",
+            "c.)  Gold",
+            "d.)  Iron"
         ]
     },
     {
         numb: 6,
-        question: "Which method finds the HTML element by ID?",
-        answer: "a.)  document.getElementById()",
+        question: "Who is known as the 'Father of Computers'?",
+        answer: "a.)  Charles Barbage",
         options: [
-            "a.)  document.getElementById()",
-            "b.)  document.getElementByName()",
-            "c.)  document.findId()",
-            "d.)  document.getId()"
+            "a) Charles Barbage"
+            "b) William Shakespeare"
+            "c) Mark Twain"
+            "d) Leo Tolstoy"
         ]
     },
     {
         numb: 7,
-        question: "How do you find the number with the highest value of x and y?*",
-        answer: "a.)  Math.max(x, y)",
+        question: "Which element has the chemical symbol 'O'",
+        answer: "a.)  Oxygen",
         options: [
-            "a.)  Math.max(x, y)",
-            "b.)  ceil(x, y)",
-            "c.)  top(x, y)",
-            "d.)  Math.ceil(x, y)"
+            "a.)  Oxygen",
+            "b.)  Gold",
+            "c.)  Iron",
+            "d.)  Silver"
         ]
     },
     {
         numb: 8,
-        question: "How does a while loop start?",
-        answer: "d.)  while (condition) {}",
+        question: "What is the smallest country in the world by land area?",
+        answer: "c) Vatican City",
         options: [
-            "a.)  while (condition)",
-            "b.)  while condition",
-            "c.)  while {condition}",
-            "d.)  while (condition) {}"
+            "a) Monac"
+            "b) Nauru"
+            "c) Vatican City"
+            "d) San Marino"
         ]
     },
     {
         numb: 9,
-        question: "How can you add a single-line comment in JavaScript?",
-        answer: "a.)  // comment",
+        question: "What is the tallest mountain in the world?",
+        answer: "c) Mount Everest",
         options: [
-            "a.)  // comment",
-            "b.)  # comment",
-            "c.)   comment  ",
-            "d.)  ** comment"
+            "a) K2"
+            "b) Mount Kilimanjaro"  
+            "c) Mount Everest" 
+            "d) Mount Elbrus"
         ]
     },
     {
         numb: 10,
-        question: "What is the purpose of the isNaN function?",
+        question: "Which gas do plants absorb from the atmosphere?",
         answer: "a.)  To check if a value is not a number",
         options: [
-            "a.)  To check if a value is not a number",
-            "b.)  To check if a number is negative  ",
-            "c.)  To convert a string to a number",
-            "d.)  To check if a number is an integer  "
+            "a.)  Oxygen",
+            "b.)  Nitrogen",
+            "c.)  Carbondioxide",
+            "d.)  hydrogen"
         ]
     },
 ];
