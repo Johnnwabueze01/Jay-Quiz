@@ -80,7 +80,7 @@ let questions = [
     {
         numb: 8,
         question: "What is the smallest country in  the world by land area?",
-        answer: "d.)  Vatican  City",
+        answer: "d.)  Vatican City",
         options: [
             "a.)  Monac",
             "b.)  Nauru",
@@ -106,7 +106,7 @@ let questions = [
         options: [
             "a.)  Oxygen",
             "b.)  Nitrogen",
-            "c.)  carbondioxie",
+            "c.)  Carbondioxide",
             "d.)  hydrogen"
         ]
     }, 
