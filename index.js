@@ -8,6 +8,27 @@ const option_list = document.querySelector(".option_list");
 const timeCount = quiz_box.querySelector(".timer .time_sec");
 const timeoff = quiz_box.querySelector("header .time_text");
 
+document.addEventListener('DOMContentLoaded', function() {
+    const text = "click the button to begin your Quiz";
+    let index = 0;
+    const typewriterTextElement = document.getElementById("typewriter");
+  
+    function typeWriter() {
+      if (index < text.length) {
+        typewriterTextElement.innerHTML += text.charAt(index);
+        index++;
+        setTimeout(typeWriter, 100); // Adjust typing speed (milliseconds)
+      } else {
+        // After typing is complete, fade in the content
+        document.querySelector('.content').classList.add('show');
+        // Hide the overlay
+        document.querySelector('.overlay').style.display = 'none';
+      }
+    }
+  
+    // Call typeWriter function when the page loads
+    typeWriter();
+  });
 
 //if start quiz button ic clicked
 start_btn.onclick = ()=>{
@@ -25,13 +46,13 @@ continue_btn.onclick = ()=>{
     quiz_box.classList.add("activeQuiz");
     showQuestions(0);
     queCounter(1);
-    starttimer(15);
+    starttimer(20);
 }
 
 let que_count = 0;
 let que_numb = 1;
 let counter;
-let timevalue = 15;
+let timevalue = 20;
 let userscore = 0;
 
 const next_btn = quiz_box.querySelector(".next_btn");
@@ -44,7 +65,7 @@ restart_quiz.onclick = ()=>{
     quiz_box.classList.add("activeQuiz");
     let que_count = 0;
     let que_numb = 1;
-    let timevalue = 15;
+    let timevalue = 20;
     let userscore = 0;
     showQuestions(que_count);
     queCounter(que_numb);
@@ -191,4 +212,4 @@ function queCounter(index){
     const bottom_ques_counter = quiz_box.querySelector(".total_que");
     let totalQuesCountTag =  '<span><p>'+ index +'</p>of <p>'+ questions.length +'</p>Questions</span>';
     bottom_ques_counter.innerHTML = totalQuesCountTag;
-}
+                                        }
