@@ -46,13 +46,13 @@ continue_btn.onclick = ()=>{
     quiz_box.classList.add("activeQuiz");
     showQuestions(0);
     queCounter(1);
-    starttimer(20);
+    starttimer(10);
 }
 
 let que_count = 0;
 let que_numb = 1;
 let counter;
-let timevalue = 20;
+let timevalue = 10;
 let userscore = 0;
 
 const next_btn = quiz_box.querySelector(".next_btn");
@@ -65,7 +65,7 @@ restart_quiz.onclick = ()=>{
     quiz_box.classList.add("activeQuiz");
     let que_count = 0;
     let que_numb = 1;
-    let timevalue = 20;
+    let timevalue = 10;
     let userscore = 0;
     showQuestions(que_count);
     queCounter(que_numb);
